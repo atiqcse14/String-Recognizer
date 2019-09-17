@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.recognizecharacter.home">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/foot"
+        android:layout_marginTop="450dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/head"
+        android:layout_marginTop="0dp"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:background="@drawable/facebook"
+        android:layout_marginTop="537dp"
+        android:layout_marginLeft="15dp"
+        />
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/twitter"
+        android:layout_marginTop="537dp"
+        android:layout_marginLeft="65dp"
+        />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/scan"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClick"
+        />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/files"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="210dp"
+        android:onClick="onClicka"
+        />
+
+
+</RelativeLayout>
