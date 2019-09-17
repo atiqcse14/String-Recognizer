@@ -1,10 +1,8 @@
 # String-Recognizer
-An Optical Character Recognizer android system. Its easy to capture from anywhere with the variation of fronts, colors and convert it into editable format.
+An Optical Character Recognizer android system. Its easy to capture from anywhere with the variation of fronts and convert it into editable format.
 
->Front Variations
+>String can be saved in editable format
 
->String Editable Format
+>Saving data with sharing option
 
->Saving Data with Sharing Option
-
-Used Tools : Java, XML, SQLite, Google Vision API, Android studio
+Tools : Java, SQLite, Google Vision API, Android studio
